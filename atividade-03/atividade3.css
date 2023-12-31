@@ -1,0 +1,42 @@
+body{
+  background-color:#F5F5F5;
+  color: black;
+  text-align: center;
+  margin: solid white;  
+}
+
+figure img{
+  text-align: center;
+  border-top:0.3em solid#F5BD26;
+  border-bottom:0.3em solid#F5BD26;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+ul{ 
+  list-style-type: none;
+  margin: auto;
+  width: 70em;
+}
+
+li{
+  display: inline-block;
+  padding: 0.5%
+}
+
+h2{
+  font-size: 2em;
+  font-style: garamond;
+}
+
+p{
+  text-align: center;
+  font-style: garamond;
+  padding: 1%
+}
+
+address{
+  background-color: white;
+  padding: 0.8%
+}
+
