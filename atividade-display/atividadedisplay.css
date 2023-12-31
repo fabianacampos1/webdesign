@@ -1,0 +1,77 @@
+
+header, h1{
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: serif;
+    margin-top: 0;
+}
+ol{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8em;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+    flex-direction: row;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    margin:0 ;
+    max-height:70em;
+    background-color: white;
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(238, 230, 230);
+    max-height:70em;
+    width: 38em;
+}
+.box-content{
+    display:flex;
+    width: 11em;
+    height: 9em;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+    margin: 5px;
+    gap:5px;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+div.herois{
+    background-color: white;
+    width: 5em;
+    border-radius: 50%;
+    padding-top: 15px ;
+    padding-bottom: 12px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+img{
+    width: 3.7em;
+    height: 3.7em;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: serif;
+    padding: 2px;
+}
