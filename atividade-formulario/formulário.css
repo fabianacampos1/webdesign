@@ -1,0 +1,82 @@
+body {
+    font-family: Tahoma, Arial;
+    font-size: 0.8em;
+    color: white;
+    background: linear-gradient(45deg, #00324d, #53bb66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0.8em;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0.8em;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+  
+  fieldset.centralize {
+    text-align: center;
+  }
+  
+  legend {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0.8em;
+  }
+  
+  input,
+  select,
+  textarea {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    width: 15em;
+    color: white;
+  }
+  
+  select option {
+    color: black;
+  }
+  
+  .receber-email{
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .descricao-curta {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .submit-button {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+    width: 15em;
+    text-transform:uppercase;
+    font-size: 1.2em;
+  }
