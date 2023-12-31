@@ -1,0 +1,20 @@
+header {
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+ol{
+    display: inline-flex;
+    gap: 5em;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 12px;
+    font-family: verdana;
+    border-left: 0.8px black;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
