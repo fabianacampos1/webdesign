@@ -1,0 +1,16 @@
+body{
+    background-color:#D4D8DC;
+}
+h1{
+    background-color:#1C1D38;
+    text-align: center;
+    color: white;
+    border-bottom: 0.3em solid #C11F3E;
+}
+h2{
+    background-color: #F5B700;
+    color: #1C1D38;
+}
+li{
+    list-style-image:URL(setaifrn1.png)
+}
