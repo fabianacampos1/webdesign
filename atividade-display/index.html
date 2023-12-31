@@ -1,140 +1,50 @@
-
-header {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-h1 {
-    color: white;
-    font-size: 15px;
-    font-family: serif;
-    margin: 0;
-}
-
-.search-form {
-    display: flex;
-    align-items: center;
-    width: 15em;
-}
-
-.search-form input {
-    margin-right: 5px;
-}
-
-.search-form button {
-    font-size: 12px;
-    padding: 5px 10px;
-}
-ol{
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 8em;
-    list-style-type: none;
-    font-size: 15px;
-    font-family: serif;
-    flex-direction: row;
-}
-li a{
-    text-decoration: none;
-    color: white;
-}
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: auto;
-    margin:0 ;
-    max-height:70em;
-    background-color: white;
-}
-section{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(238, 230, 230);
-    max-height:70em;
-    width: 38em;
-}
-
-.box-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 11em;
-    height: 9em;
-    border: 3px solid lightgray;
-    border-radius: 8px;
-    background-color: white;
-    margin: 5px;
-    gap: 5px;
-    margin-top: 2em;
-    overflow: hidden;
-  }
-  
-  .box-content h3 {
-    text-align: center;
-    font-size: 10px;
-    font-family: serif;
-    margin: 0;
-    padding: 6px; 
-  }
-  
-  .box-content p {
-    text-align: center;
-    font-size: 10px;
-    font-family: serif;
-    margin: 0;
-    padding: 6px;
-  }
-  
-  .box-content img {
-    width: 9em;
-    height: auto;
-    max-height: 6em;
-    margin: auto;
-  }
-
-div.herois{
-    background-color: white;
-    width: 5em;
-    border-radius: 50%;
-    padding-top: 15px ;
-    padding-bottom: 12px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;  
-}
-div.herois img{
-    width: 3.7em;
-    height: 3.7em;
-    margin: auto;
-}
-footer {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.footer-left img {
-    width: 4em;
-    height: auto;
-}
-
-.footer-right {
-    display: flex;
-    gap: 5px;
-}
-
-.footer-right img {
-    width: 1.5em;
-    height: 1.5em;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade display</title>
+    <link rel="stylesheet" href="atividadedisplay.css">
+</head>
+<body>
+<header>
+    <h1>Vingadores</h1>
+    <nav>
+        <ol>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ol>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <section>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+            <div class="box-content"> </div>
+        </section>
+        <section>
+            <div class="herois"><img src="viuva.png" alt="viuva negra"></div>
+            <div class="herois"><img src="thor.png" alt="thor"></div>
+            <div class="herois"><img src="stark.png" alt="homem de ferro"></div>
+            <div class="herois"><img src="hulk.png" alt="hulk"></div>
+            <div class="herois"><img src="gaviao.png" alt="gaviao"></div>
+            <div class="herois"><img src="capitao.png" alt="capitao america"></div>
+        </section>
+    </div>
+</main>
+<footer>
+    <p>Todos os direitos reservados ao IFRN</p>
+</footer>
+</body>
+</html>
